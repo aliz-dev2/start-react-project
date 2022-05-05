@@ -12,7 +12,7 @@ class PanelCP extends Component {
     render() {
         return (
             <PanelLayout>
-                <div>Hi panel In</div>
+                <div>Hi Panel Layout</div>
                 <Outlet/>
             </PanelLayout>
 

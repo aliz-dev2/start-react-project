@@ -1,6 +1,7 @@
 import './authStyle.scss';
 import {Outlet} from "react-router-dom";
 import React, {Component} from 'react';
+import {AuthLayout} from "../Auth/authSC";
 
 class AuthCP extends Component {
 
@@ -10,10 +11,10 @@ class AuthCP extends Component {
 
     render() {
         return (
-            <>
-                <div>Hi Aurth In</div>
+            <AuthLayout>
+                <div>Hi Auth Layout</div>
                 <Outlet/>
-            </>
+            </AuthLayout>
 
         );
     }
