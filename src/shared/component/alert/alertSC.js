@@ -1,15 +1,11 @@
 import styled from "styled-components";
 
-const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: palevioletred;
-`;
-
-const body = styled.div`
-  text-align: center;
-  color: blue;
+const Text = styled.div`
+  color: #000;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 `;
 
 
-export {Title, body};
+export {Text};

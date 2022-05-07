@@ -2,6 +2,7 @@ import './reportStyle.scss';
 import React, {Component} from 'react';
 import {Link, withRouter} from 'react-router-dom';
 import {Title} from "./reportSC";
+import AlertCP from "../../../shared/component/alert/AlertCP";
 
 class ReportCP extends Component {
 
@@ -11,7 +12,10 @@ class ReportCP extends Component {
 
     render() {
         return (
-            <Title>Hi Report</Title>
+            <>
+                <Title>Hi Report</Title>
+                <AlertCP/>
+            </>
         );
     }
 }
