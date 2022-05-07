@@ -2,6 +2,7 @@ import './signinStyle.scss';
 import React, {Component} from 'react';
 import {Link, withRouter} from 'react-router-dom';
 import {Title} from "./singinSC";
+import AlertCP from "../../../shared/component/alert/AlertCP";
 
 class SigninCP extends Component {
 
@@ -13,6 +14,7 @@ class SigninCP extends Component {
         return (
             <>
                 <Title>Hi Sing In</Title>
+                <AlertCP/>
             </>
 
         );
