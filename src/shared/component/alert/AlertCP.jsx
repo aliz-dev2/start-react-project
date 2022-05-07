@@ -1,6 +1,6 @@
 import './alertStyle.scss';
 import React, {Component} from 'react';
-import {Title} from "./alertSC";
+import {Text} from "./alertSC";
 
 class AlertCP extends Component {
 
@@ -11,7 +11,7 @@ class AlertCP extends Component {
     render() {
         return (
             <>
-                <Title>Hi alert in shared</Title>
+                <Text>Hi alert in shared</Text>
             </>
 
         );
