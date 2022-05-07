@@ -8,9 +8,6 @@ import PanelCP from "../layouts/Panel/PanelCP";
 import AuthCP from "../layouts/Auth/AuthCP";
 
 const ProtectedRoute = ({user, redirectPath = 'signin'}) => {
-    // const navigate = useNavigate();
-    // navigate("/");
-
     if (!user.allow) {
         return <Navigate to={redirectPath} replace/>;
     }
